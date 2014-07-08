@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+Author: Kuldeep Sheoran
+Author URL: http://github.com/KuldeepSheoran
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+
+-->
+<html>
+    <head>
+        <title>Upload Preview - Kuldeep sheoran</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css"/>
+        <script type="text/javascript" src="javascript.js">
+        </script>
+    </head>
+    <body>
+            <div style="float:left;padding-bottom: 10px;">
+            <div id="newpost">
+            <div id="newpost_data_wrapper">
+            <form enctype="multipart/form-data" method="post" action="test12.php">
+            <div id="write_a_post">
+            <div id="post_preview">
+                <div id="post_preview1" style="float: left;">
+                   
+                </div>
+            <div class="fileUpload" style="float: left;" id="up0">
+
+   <div style="border:dashed 2px grey;text-align: center;"><img src="images/access_camera.png"/></div>
+    <input  style="width: 100px;height:100px;" id="uploadbtn1" name="pic[]" type="file" class="upload" onchange="set_preview(this,this.id,'0')" />
+
+    
+</div>
+<div class="fileUpload" style="float: left;display:none;" id="up1" >
+ 
+    <div style="border:dashed 2px grey;text-align: center;"><img src="images/access_camera.png"/></div>
+    <input style="width: 100px;height:100px;" id="uploadbtn2" name="pic[]" type="file" class="upload" onchange="set_preview(this,this.id,'1')" />
+
+</div>
+<div class="fileUpload" style="float: left;display:none;" id="up2" >
+
+   <div style="border:dashed 2px grey;text-align: center;"><img src="images/access_camera.png"/></div> 
+   <input style="width: 100px;height:100px;" id="uploadbtn3" name="pic[]" type="file" class="upload" onchange="set_preview(this,this.id,'2')" />
+ 
+</div>
+<div class="fileUpload" style="float: left;display:none;" id="up3" >
+
+   <div style="border:dashed 2px grey;text-align: center;"><img src="images/access_camera.png"/></div>
+   <input style="width: 100px;height:100px;" id="uploadbtn4" name="pic[]" type="file" class="upload" onchange="set_preview(this,this.id,'3')" />
+
+</div>
+<div class="fileUpload" style="float: left;display:none;" id="up4" >
+
+   <div style="border:dashed 2px grey;text-align: center;"><img src="images/access_camera.png"/></div>
+   <input style="width: 100px;height:100px;" id="uploadbtn5" name="pic[]" type="file" class="upload" onchange="set_preview(this,this.id,'4')" />
+
+</div>
+</div>    
+                <div id="write_area">       
+<textarea class="common" id="write_a_post_textarea"  placeholder="Type a post" name="new_post"></textarea>
+<input type="submit"  value="Post"  name="uploadpic" onclick="return upload_fine();"/>
+ </form>
+</div>
+</div>  
+
+
+</div>    
+</div>
+</div>
+    </body>
+</html>

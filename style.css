@@ -1,0 +1,86 @@
+
+/* 
+    Author: Kuldeep Sheoran
+    Author URL: http://github.com/KuldeepSheoran
+    License: Creative Commons Attribution 3.0 Unported
+    License URL: http://creativecommons.org/licenses/by/3.0/
+
+*/
+
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	//margin: 10px;
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+#newpost
+{
+  margin:auto;
+  width:410px;
+  padding-top:0px;
+  padding-left: 5px;
+  height:auto;
+  min-height: 200px;
+  float:left;
+  font-family: Lucida Grande, Arial, tahoma, verdana, sans-serif;
+  font-size: 12px;
+  background-color: #F9F9F9;
+}
+
+#newpost_data_wrapper
+{
+  margin:auto;
+  width:410px;
+  padding-top:10px;
+  padding-right:5px;
+  height:auto;
+  float:right;
+}
+
+#write_a_post
+{
+  margin:auto;
+  width:410px;
+  float:left;
+  height:auto;
+ 
+}
+#write_area
+{
+    padding-left: 5px;
+    padding-top: 5px;
+    min-width: 50px;
+    float: left;
+}
+#write_a_post_textarea
+{
+  margin:auto;
+  width:395px;
+  height: 45px;
+  resize: none;
+  font-size:12px;
+  float:left;
+ 
+  
+  
+}
+#post_preview
+{
+  margin:auto;
+  width:405px;
+  padding-left:5px;
+  height:auto;
+  float:left;
+  
+}
